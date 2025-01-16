@@ -38,7 +38,7 @@ more than one point per category. There is a maximum of 5 points each week.
   	+ Attended class Tuesday
   	+ Introduce myself to Veda & Anita & DQ
   	+ Attended class Thursday
-  	+ 
+  	+ edittt
    	+ 
   	+ 
 - Week 3
