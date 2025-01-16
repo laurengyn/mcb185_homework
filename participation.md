@@ -35,6 +35,12 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Submitted GitHub Repository with Unit 0 Homework Complete, all files, and Participation file
 	+ Total 5 points
 - Week 2
+  	+ Attended class Tuesday
+  	+ Introduce myself to Veda & Anita & DQ
+  	+ Attended class Thursday
+  	+ 
+   	+ 
+  	+ 
 - Week 3
 - Week 4
 - Week 5
