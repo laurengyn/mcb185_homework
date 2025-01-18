@@ -39,7 +39,7 @@ more than one point per category. There is a maximum of 5 points each week.
   	+ Introduce myself to Veda & Anita & DQ
   	+ Attended class Thursday
   	+ Asked Veda for help with participation sheet
-   	+ 
+   	+ Asked a question in class
   	+ 
 - Week 3
 - Week 4
