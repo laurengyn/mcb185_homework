@@ -1,0 +1,15 @@
+lightblue	#ADD8E6	173,216,230
+lightcoral	#F08080	240,128,128
+lightcyan	#E0FFFF	224,255,255
+lightgoldenrodyellow	#FAFAD2	250,250,210
+lightgray	#D3D3D3	211,211,211
+lightgreen	#90EE90	144,238,144
+lightgrey	#D3D3D3	211,211,211
+lightpink	#FFB6C1	255,182,193
+lightsalmon	#FFA07A	255,160,122
+lightseagreen	#20B2AA	32,178,170
+lightskyblue	#87CEFA	135,206,250
+lightslategray	#778899	119,136,153
+lightslategrey	#778899	119,136,153
+lightsteelblue	#B0C4DE	176,196,222
+lightyellow	#FFFFE0	255,255,224
