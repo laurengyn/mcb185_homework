@@ -44,6 +44,7 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 3
  	+ Attended class Tuesday
   	+ Introduced myself to Namra
+	+ Answered my classmate's question on basics of the class (he joined added the class late)
 - Week 4
 - Week 5
 - Week 6
