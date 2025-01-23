@@ -46,6 +46,9 @@ more than one point per category. There is a maximum of 5 points each week.
   	+ Introduced myself to Namra
 	+ Answered my classmate's question on basics of the class (he joined added the class late)
 	+ Did Unit 0 Assessment on Tuesday with Sohail Khan
+	+ Attended class Thursday
+	+ Submitted Unit 1 Homework
+	+ Total 5 points
 - Week 4
 - Week 5
 - Week 6
