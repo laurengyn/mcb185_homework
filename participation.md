@@ -35,21 +35,26 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Submitted GitHub Repository with Unit 0 Homework Complete, all files, and Participation file
 	+ Total 5 points
 - Week 2
-  	+ Attended class Tuesday
+	+ Attended class Tuesday
   	+ Introduced myself to Veda & Anita & DQ
   	+ Attended class Thursday
   	+ Asked Veda for help with participation sheet
    	+ Asked a question in class
   	+ Total 5 points
 - Week 3
- 	+ Attended class Tuesday
+	+ Attended class Tuesday
   	+ Introduced myself to Namra
 	+ Answered my classmate's question on basics of the class (he joined added the class late)
 	+ Did Unit 0 Assessment on Tuesday with Sohail Khan
 	+ Attended class Thursday
-	+ Submitted Unit 1 Homework
 	+ Total 5 points
 - Week 4
+	+ Attended class Thursday
+	+ Introduced myself to 
+	+ Asked Sohail for help on the practice question on determining if a number is a valid probability
+	+ Submitted Unit 1 Homework with all practice questions
+	+ 
+	+ Total points
 - Week 5
 - Week 6
 - Week 7
