@@ -8,16 +8,16 @@ Demonstrate the functions work by calling them several times. Edge cases should 
 
 import math
 
-def char_to_prob(char):
-    if len(char) == 1 and 33 <= ord(char) <= 126:
-        return (10 ** (-(ord(char) - 33)/10))
+def char_to_prob(a):
+    if ord(a) >= 32 and ord(a) <= 126:
+        return (10 ** (-(ord(a) - 33)/10))
     return None
 
 
 def prob_to_char(num):
-    if 0 < num <= 1: 
+    if num <= 1 and num > 0: 
         ascii_value = round ((-10 * math.log10(num)) + 33)
-        if 33 <= ascii_value <= 126:
+        if  ascii_value >= 32 and ascii_value <= 126:
             return chr (ascii_value) 
     return None
 
