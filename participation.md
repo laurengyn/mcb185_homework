@@ -52,9 +52,9 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended class Thursday
 	+ Introduced myself to 
 	+ Asked Sohail for help on the practice question on determining if a number is a valid probability
-	+ Submitted Unit 1 Homework with all practice questions
-	+ 
-	+ Total points
+	+ Submitted Unit 1 Homework with all practice questions (I didn't do the practice questions last week but was recommended to do it)
+	+ Introduced myself to Victor
+	+ Total 5 points
 - Week 5
 - Week 6
 - Week 7

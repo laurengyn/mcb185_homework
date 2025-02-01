@@ -1,3 +1,5 @@
+import math
+
 # Tuples
 t = 1, 2
 print (t)
@@ -48,3 +50,36 @@ for i in range (len(basket)):
 for i in range (7):
     if i % 2 == 0: print (i, 'is even')
     else: print (i, 'is odd')
+
+## PRACTICE PROBLEMS
+'''
+Write a function that calculates the triangular number. 
+This is the sum of numbers from 1 to n.
+'''
+def triangular_num (n):
+    sum = 0 
+    for i in range (n): ## range ends just before n
+        sum = sum + i + 1
+    return sum
+
+print (triangular_num(3)) ## should equal 6
+
+'''
+Write a function that calculates the factorial of a number.
+'''
+def factorial (n):
+    prod = 1
+    for i in range (2, n + 1):
+        prod = prod * i
+    return prod
+
+print (factorial(5)) ## should equal 120
+
+'''
+Write a function that computes the Poisson probability 
+of k events occurring with an expectation of n: n^k e^-n / k!
+'''
+def poisson (n, k):
+    return (n ** k) * (math.e ** -n) / factorial(k)
+
+print (poisson(2, 3)) ## should equal 0.18044704431548356
