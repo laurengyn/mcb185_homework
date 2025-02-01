@@ -123,6 +123,8 @@ print (is_prime(8)) ## should return False
 '''
 Write a function that estimates Pi using the Nilakantha series. 
 Again, choose a finite limit.
+
+STUDY THIS!!!
 '''
 
 def calc_pi(n):
@@ -135,3 +137,62 @@ def calc_pi(n):
     return pi
 
 print (calc_pi(10)) ## should equal 3.141592653589793
+
+# Random Numbers
+import random
+
+for i in range(5):
+    print(random.random())
+
+for i in range(3):
+    print(random.randint(1, 6))
+
+random.seed(1)
+print(random.random())
+print(random.random())
+random.seed(2) ## resets seed
+print(random.random())
+print(random.random())
+random.seed(1) ## notice how they are the same as the first two randoms
+print(random.random())
+print(random.random())
+
+# Compound Assignment
+i = 0
+while i < 10:
+    print (i)
+    i = i + 3
+print ('final value of i is', i)
+
+i = 0
+while i < 10:
+    print (i)
+    i += 3
+print ('final value of i is', i)
+
+## PRACTICE PROBLEMS
+'''
+Write a program that estimates pi using Monte Carlo methods. 
+Generate random values for x and y from 0 to 1. 
+Calculate the distance to the origin. 
+If the distance is less than 1, the point is inside the circle. 
+The ratio of points that fall inside compared to the total is pi/4. 
+Output each iteration and watch as the ratio gets closer to pi. 
+Use an endless while loop in your program and stop it with ^C.
+'''
+
+CODE HERE
+
+'''
+In Dungeons and Dragons, each character is described by 6 statistics (strength, intelligence, wisdom, dexterity, constitution, charisma). 
+In the old days, each stat was decided by summing up the values on 3 six-sided dice (3D6). 
+Each stat therefore has a range of 3-18 and an average of 10.5. 
+Over the years, the official rules have changed and many players have added their own house rules. 
+Write a program that determines the average stat value using the various rules below.
+    - 3D6: roll 3 six-sided dice
+    - 3D6r1: roll 3 six-sided dice, but re-roll any 1s
+    - 3D6x2: roll pairs of six-sided 3 times, taking the maximum each time
+    - 4D6d1: roll 4 six-sided dice, dropping the lowest die roll
+'''
+
+CODE HERE
