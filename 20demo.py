@@ -181,7 +181,18 @@ Output each iteration and watch as the ratio gets closer to pi.
 Use an endless while loop in your program and stop it with ^C.
 '''
 
-CODE HERE
+def estimate_pi ():
+    ratio_inside = 0
+    i = 0
+    while True:
+        x = random.random()
+        y = random.random()
+        i += 1
+        if (x ** 2 + y ** 2) < 1: 
+            ratio_inside += 1
+        print (ratio_inside / (i + 1) * 4)
+
+### estimate_pi() ## uncomment to run
 
 '''
 In Dungeons and Dragons, each character is described by 6 statistics (strength, intelligence, wisdom, dexterity, constitution, charisma). 
@@ -195,4 +206,73 @@ Write a program that determines the average stat value using the various rules b
     - 4D6d1: roll 4 six-sided dice, dropping the lowest die roll
 '''
 
-CODE HERE
+def avg_three_d_six ():
+    sum = 0
+    count = 0
+    while count <3:
+        roll = random.randint(1, 6)
+        print (roll)
+        sum += roll
+        count += 1
+    return (sum/3)
+
+print (avg_three_d_six())
+print (avg_three_d_six())
+print (avg_three_d_six()) ## did three to make sure it was random
+
+
+def avg_three_d_six_r_one ():
+    sum = 0
+    count = 0
+    while count <3:
+        roll = random.randint(1, 6)
+        print (roll)
+        if roll > 1:
+            sum += roll
+            count += 1
+    return (sum/3)
+
+print (avg_three_d_six_r_one())
+print (avg_three_d_six_r_one())
+print (avg_three_d_six_r_one()) ## did three to make sure it was random
+
+def avg_three_d_six_x_two ():
+    sum = 0
+    count = 0
+    while count <3:
+        roll1 = random.randint(1, 6)
+        roll2 = random.randint(1, 6)
+        print (roll1, roll2)
+        if roll1 > roll2:
+            sum += roll1
+            print ('higher is', roll1)
+        else:
+            sum += roll2
+            print ('higher is', roll2)
+        count += 1
+    return (sum/3)
+
+print (avg_three_d_six_x_two())
+print (avg_three_d_six_x_two())
+print (avg_three_d_six_x_two()) ## did three to make sure it was random
+
+def avg_four_d_six_d_one ():
+    sum = 0
+    roll1 = random.randint(1, 6)
+    roll2 = random.randint(1, 6)
+    roll3 = random.randint(1, 6)
+    roll4 = random.randint(1, 6)
+    print (roll1, roll2, roll3, roll4)
+    if roll1 <= roll2 and roll1 <= roll3 and roll1 <= roll4:
+        sum += roll2 + roll3 + roll4
+    elif roll2 <= roll1 and roll2 <= roll3 and roll2 <= roll4:
+        sum += roll1 + roll3 + roll4
+    elif roll3 <= roll1 and roll3 <= roll2 and roll3 <= roll4:
+        sum += roll1 + roll2 + roll4
+    else:
+        sum += roll1 + roll2 + roll3
+    return (sum/3)
+ 
+print (avg_four_d_six_d_one())
+print (avg_four_d_six_d_one())
+print (avg_four_d_six_d_one()) ## did three to make sure it was random
