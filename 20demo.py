@@ -294,10 +294,4 @@ def gregory_leibniz ():
         denominator += 2
         print (pi * 4)
 
-gregory_leibniz() ## uncomment to run
-    
-
-'''
-Halflings get advantage on death saves. 
-Modify your program to determine the halfling rate for death, stable, and revive.
-'''
+## gregory_leibniz() ## uncomment to run
