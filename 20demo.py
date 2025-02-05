@@ -284,11 +284,20 @@ pi/4 = 1 - 1/3 + 1/5 - 1/7 + 1/9 ....
 Make the program run endlessly.
 '''
 
-CODE HERE
+def gregory_leibniz ():
+    pi = 1
+    multiplier = -1
+    denominator = 3
+    while True:
+        pi = pi + (multiplier * (1 / denominator))
+        multiplier *= -1
+        denominator += 2
+        print (pi * 4)
+
+gregory_leibniz() ## uncomment to run
+    
 
 '''
 Halflings get advantage on death saves. 
 Modify your program to determine the halfling rate for death, stable, and revive.
 '''
-
-CODE HERE
