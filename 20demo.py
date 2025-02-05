@@ -276,3 +276,19 @@ def avg_four_d_six_d_one ():
 print (avg_four_d_six_d_one())
 print (avg_four_d_six_d_one())
 print (avg_four_d_six_d_one()) ## did three to make sure it was random
+
+# ASSESSMENT EXAMPLE
+'''
+Write a program that that estimates pi using the Gregory-Leibniz series. 
+pi/4 = 1 - 1/3 + 1/5 - 1/7 + 1/9 .... 
+Make the program run endlessly.
+'''
+
+CODE HERE
+
+'''
+Halflings get advantage on death saves. 
+Modify your program to determine the halfling rate for death, stable, and revive.
+'''
+
+CODE HERE
