@@ -17,3 +17,65 @@ In this case, you have "disadvantage" and must take the lower of two d20 rolls.
 
 Write a program that simulates saving throws against DCs of 5, 10, and 15.
 '''
+
+import random
+import math
+
+def saving_throws (n): 
+    d20 = random.randint(1, 20)
+    print(d20)
+    if d20 >= n:
+        print("You rolled higher than or equal to", n)
+    else:
+        print("You rolled lower than", n)
+
+saving_throws(5)
+saving_throws(5)
+saving_throws(10)
+saving_throws(10)
+saving_throws(15)
+saving_throws(15)
+
+def saving_throws_advantage (n): 
+    d20_1 = random.randint(1, 20)
+    d20_2 = random.randint(1, 20)
+    print (d20_1, d20_2)
+    if d20_1 >= d20_2:
+        print (d20_1)
+    else:
+        print (d20_2)
+    if d20_1 >= n or d20_2 >= n:
+        print ("You rolled higher than or equal to", n)
+    else:
+        print ("You rolled lower than", n)
+
+saving_throws_advantage(5)
+saving_throws_advantage(5)
+saving_throws_advantage(10)
+saving_throws_advantage(10)
+saving_throws_advantage(15)
+saving_throws_advantage(15)
+
+def saving_throws_disadvantage (n):
+    d20_1 = random.randint(1, 20)
+    d20_2 = random.randint(1, 20)
+    print(d20_1, d20_2)
+    if d20_1 <= d20_2:
+        print (d20_1)
+        if d20_1 >= n:
+            print ("You rolled higher than or equal to", n)
+        else:
+            print ("You rolled lower than", n)
+    else:
+        print (d20_2)
+        if d20_2 >= n:
+            print ("You rolled higher than or equal to", n)
+        else:
+            print ("You rolled lower than", n)
+
+saving_throws_disadvantage(5)
+saving_throws_disadvantage(5)
+saving_throws_disadvantage(10)
+saving_throws_disadvantage(10)
+saving_throws_disadvantage(15)
+saving_throws_disadvantage(15)
