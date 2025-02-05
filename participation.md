@@ -56,6 +56,12 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Introduced myself to Victor
 	+ Total 5 points
 - Week 5
+	+ Attended class Tuesday
+	+ Did Unit 1 Assessment on Tuesday with Sohail Khan
+	+ Asked the TA for help on the fibonnaci homework
+	+ Submitted Unit 2 Homework with all practice questions
+	+ 
+	+ Total  points
 - Week 6
 - Week 7
 - Week 8
