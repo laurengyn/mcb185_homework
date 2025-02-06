@@ -60,8 +60,9 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Did Unit 1 Assessment on Tuesday with Sohail Khan
 	+ Asked the TA for help on the fibonnaci homework
 	+ Submitted Unit 2 Homework with all practice questions
-	+ 
-	+ Total  points
+	+ Joined Sohail/Alex coderie on Tuesday
+	+ Attended class Thursday
+	+ Total 5 points
 - Week 6
 - Week 7
 - Week 8
