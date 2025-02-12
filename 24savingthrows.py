@@ -79,3 +79,44 @@ saving_throws_disadvantage(10)
 saving_throws_disadvantage(10)
 saving_throws_disadvantage(15)
 saving_throws_disadvantage(15)
+
+def saving_throws_prob(n):
+    success = 0
+    trials = 0
+    while True:
+        trials += 1
+        d20 = random.randint(1, 20)
+        if d20 >= n: success +=1
+        print (success/trials)
+
+### saving_throws_prob(10) ### remove to run
+
+def saving_throws_adv_prob(n):
+    success = 0
+    trials = 0
+    while True: 
+        trials += 1
+        d20_1 = random.randint(1, 20)
+        d20_2 = random.randint(1, 20)
+        if d20_1 >= d20_2:
+            if d20_1 > n: success += 1
+        else:
+            if d20_2 > n: success += 1
+        print (success/trials)
+
+### saving_throws_adv_prob(10) ### remove to run
+
+def saving_throws_disadv_prob(n):
+    success = 0
+    trials = 0
+    while True: 
+        trials += 1
+        d20_1 = random.randint(1, 20)
+        d20_2 = random.randint(1, 20)
+        if d20_1 <= d20_2:
+            if d20_1 > n: success += 1
+        else:
+            if d20_2 > n: success += 1
+        print (success/trials)
+
+saving_throws_disadv_prob(10)
