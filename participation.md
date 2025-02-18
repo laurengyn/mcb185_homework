@@ -69,6 +69,7 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Asked Lilith a question in class about the left/right/center justify in unit 3 
 	+ Total 3 points
 - Week 7
+	+ Attended class Tuesday
 - Week 8
 - Week 9
 - Week 10
