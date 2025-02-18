@@ -214,13 +214,26 @@ def mean(lista):
     return (sum/len(lista))
 
 print(mean(listtest))
-'''
+
 # Write a function that computes the entropy of a probability distribution. 
-ASK TA
+def entropy(lista):
+    sum = 0
+    for i in lista:
+        if i >= 0 and i <= 1.0:
+            compute = i * math.log2(i)
+            sum -= compute
+    return sum
+
+print(entropy([0.4, 0.88, 0.21]))
 
 # Write a function that computes the Kullback-Leibler distance between two sets of probability distributions.
-ASK TA
-'''
+def kl_dist(lista, listb):
+    sum = 0
+    for a, b in zip(lista, listb):
+        compute = a * math.log2(a/b)
+        sum += compute
+    return sum
+
 
 print('COMMAND LINE DATA')
 
