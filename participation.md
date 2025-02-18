@@ -64,6 +64,10 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended class Thursday
 	+ Total 5 points
 - Week 6
+	+ Did Unit 2 Assessment on Tuesday with Sohail Khan
+	+ Attended class Thursday
+	+ Asked Lilith a question in class about the left/right/center justify in unit 3 
+	+ Total 3 points
 - Week 7
 - Week 8
 - Week 9

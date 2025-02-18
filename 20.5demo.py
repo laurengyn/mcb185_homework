@@ -1,6 +1,6 @@
 import random
 import math
-
+'''
 def death_saves_prob_adv():
     revive = 0
     stabilize = 0
@@ -32,3 +32,12 @@ def death_saves_prob_adv():
         print (revive/trials, stabilize/trials, die/trials)
 
 death_saves_prob_adv()
+'''
+multiplier = 1
+denominator = 1
+sum = 0
+while True: 
+    sum = sum + multiplier*(1/denominator)
+    multiplier *= -1
+    denominator += 2
+    print (sum*4)
