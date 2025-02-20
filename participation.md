@@ -70,6 +70,11 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Total 3 points
 - Week 7
 	+ Attended class Tuesday
+	+ Attended class Thursday
+	+ Introduced myself to Jenna
+	+ Asked Sohail a question about 32stats homework
+	+ 
+	+ Total 4 points
 - Week 8
 - Week 9
 - Week 10
