@@ -256,3 +256,14 @@ for i in range(0, len(list)):
 ## X = 0, all combo
 ## X = i, half-matrix w diagonal
 ## X = i+1, half matrix w/o diagonal 
+
+print("ASSESSMENT EXAMPLE")
+
+print("i think it will print -C- because it will first do A-B-C-D-E and then print chars 3-5")
+print(list('ABCDE'))
+print('-'.join(list('ABCDE')))
+print('-'.join(list('ABCDE'))[3:6])
+
+'''
+
+'''

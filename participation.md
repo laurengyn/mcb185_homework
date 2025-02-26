@@ -78,5 +78,8 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 8
 	+ Attended class Tuesdaay
 	+ Introduced myself to Lian
+	+ Did Unit 3 Assessment on Tuesday with Sohail
+	+ Asked Sohail a question about the practice assessment
+	+ Total 4 points
 - Week 9
 - Week 10

@@ -16,15 +16,15 @@ for i in range(0, len(letters)):
             row.append(mismatch)
     matrix.append(row)
 
-# printing header
-print('     ', end='')
+# printing column header
+print('     ', end='') # gives space in table
 for  base in letters:
     print(f" {base}", end='')
 print()
 
 # printing rows
 for i in range(0, len(letters)):
-    print(f'{letters[i]} ', end='')
+    print(f'{letters[i]} ', end='') # row header
     for j in range(0, len(letters)):
         print(f' {matrix[i][j]}', end='')
     print()
