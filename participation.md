@@ -83,4 +83,9 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended class Thursday
 	+ Total 5 points
 - Week 9
+	+ Attended class Tuesday
+	+ Asked classmate for clarification on all the sequence variations
+	+ Attended class Thursday
+	+ Hosted a Coderie on Friday 8-10pm
+	+ Total 4 points
 - Week 10
