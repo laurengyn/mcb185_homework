@@ -13,7 +13,7 @@ import sys
 
 with gzip.open(sys.argv[1], 'rt') as fp:
     for line in fp:
-        if line[0] == '#': continue # skips over comment lines
+        if line[0] == '#': continue # skips over comment lines, continue skips line to next iteration
         words = line.split()
         if words[2] != 'CDS': continue # find CDS features
         beg = int(words[3]) # extract beginning coordinate + converts to integer
