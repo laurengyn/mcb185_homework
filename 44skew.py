@@ -1,6 +1,7 @@
+import sys
 import sequence
 
-seq = 'ACGTACGTGGGGGACGTACGTCCCCC'
+seq = 'AAAAAAAAAAGGGGGGGGGGTTTTTTTTTTCCCCCCCCCC'
 w = 10 # window
 
 # initial window, counts amount of G and C in window

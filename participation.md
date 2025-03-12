@@ -89,3 +89,7 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Hosted a Coderie on Friday 8-10pm
 	+ Total 4 points
 - Week 10
+	+ Attended class Tuesday
+	+ Asked classmate for help on the logic reasoning for 48transmembrane.py on the Unit 4 homework
+	+ Did Unit 4 Assessment on Tuesday with Sohail and Victor
+	+ Total 3 points

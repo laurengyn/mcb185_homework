@@ -1,7 +1,7 @@
 import sys
 import mcb185
 import sequence
-
+'''
 def get_protein(seq, t): # where seq is seq of nts and t is the minimum number of aas
     proteins = []
     for i in range (3): # checks all reading frame possibilities
@@ -24,14 +24,17 @@ for defline, seq in mcb185.read_fasta(sys.argv[1]): # pulls data from input file
         print(f'>{name}-prot-{p}') # prints name
         print (protein) # prints valid strand
         p += 1
-
-
-
 '''
-# CODERIE RANDOM TASK:
+
+
+
+# CODERIE RANDOM TASK: apparently 950
 import random
+'''
 def dna_random(length): 
     return ''.join(random.choices('ACGT', k=length))
+'''
+dna_random = ''.join(random.choices('ACGT', k=4600000))
 
 def find_proteins(seq, t): # where t is the minimum number of aas
     proteins = 0
@@ -43,5 +46,6 @@ def find_proteins(seq, t): # where t is the minimum number of aas
             idx = orf.index('M') # finds first M
             pro = orf[idx:] # finds whole chain starting at M
             if len(pro) >= t: proteins += 1 # adds valid protein to count
-    return proteins # returns total valid proteins found in nts seq
-'''
+    return (2*proteins) # returns total valid proteins found in nts seq
+
+print(find_proteins(dna_random, 100))
