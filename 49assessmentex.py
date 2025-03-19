@@ -1,6 +1,7 @@
 import sys
 import mcb185
 import math
+import random
 
 '''
 Write a program that performs a statistical summary of the lengths of sequences in a FASTA file. 
@@ -46,3 +47,10 @@ for val in lengths:
     else: break
 
 print(count, min, max, mean, standev, median, n50)
+
+'''
+Write a program that generates random FASTA files. 
+The names should be unique and the sequences should be random.
+'''
+
+num

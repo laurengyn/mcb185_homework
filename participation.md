@@ -91,5 +91,7 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 10
 	+ Attended class Tuesday
 	+ Asked classmate for help on the logic reasoning for 48transmembrane.py on the Unit 4 homework
+	+ Submitted Unit 4 Homework
 	+ Did Unit 4 Assessment on Tuesday with Sohail and Victor
-	+ Total 3 points
+	+ Did Unit 5 Assessment with Sohail and Victor
+	+ Total5 points
